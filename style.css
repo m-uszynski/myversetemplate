@@ -319,3 +319,29 @@ body{
         padding: 5px 0 0 0;
     }
 }
+
+@media only screen and (max-width: 1000px){
+    
+    #sidenav{
+        width: 100px;  
+        padding-top: 50px;
+        top: 100px;
+    }
+    
+    #top-bar{
+        height: 100px;
+    }
+    .content{
+        margin-top: 125px;
+    }
+    .title{
+        top: 100px;
+        min-height: 35px;
+        left: 100px;
+    }
+    .title-background{
+        top: 100px;
+        min-height: 35px;
+        left: 100px;
+    }
+}
