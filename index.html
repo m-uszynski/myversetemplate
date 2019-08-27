@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pl">
+    <head>
+        <title>My Verse</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <script src="https://kit.fontawesome.com/6d2c8e9c53.js"></script>
+        <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700&display=swap&subset=latin-ext" rel="stylesheet">
+        <script type="text/javascript" src="panel.js"></script>
+    </head>
+    <body>
+
+        <div id="top-bar">
+            <div class="logo">
+                <i class="fas fa-headphones-alt"></i> 
+                <div class="logo-name">My Verse</div>
+            </div>
+            <div class="user">
+                <div class="user-image"><img src="img/avatar.jpeg" alt="avatar"></div>
+                
+                <button id="user-btn" onclick="showPanel()">
+                    <div class="user-info">
+                        <div class="name">Jan Kowalski</div>
+                        <div class="role">Pseudonim</div>
+                    </div>
+                    <i class="fas fa-chevron-down"></i>
+                </button>
+                    
+            </div>
+        </div>
+        
+        <div id="user-panel">
+            
+            <a href="#">
+                <div class="user-panel-element">
+                    <div class="user-panel-icon"><i class="fas fa-cog"></i></div>
+                    <div class="user-panel-name">Ustawienia</div>
+                </div>
+            </a>
+            
+            <a href="#">
+                <div class="user-panel-element">
+                    <div class="user-panel-icon"><i class="fas fa-sign-out-alt"></i></div>
+                    <div class="user-panel-name">Wyloguj się</div>
+                </div>
+            </a>
+        </div>
+        
+        <div id="sidenav">
+            
+            <a href="#">
+                <div class="element active">
+                    <div class="element-icon"><i class="fas fa-home"></i></div>
+                    <div class="element-name">Strona Główna</div>
+                </div>
+            </a>
+            
+            <a href="#">
+                <div class="element">
+                    <div class="element-icon"><i class="fas fa-music"></i></div>
+                    <div class="element-name">Twoje utwory</div>
+                </div>
+            </a>
+            
+            <a href="#">
+                <div class="element">
+                    <div class="element-icon"><i class="fas fa-cog"></i></div>
+                    <div class="element-name">Ustawienia</div>
+                </div>
+            </a>
+        </div>
+        
+        <div class="title">
+            <div class="title-name"><i class="fas fa-home"></i> Strona Główna</div>
+        </div>
+        
+        <div class="title-background">
+        </div>
+        
+        <div class="content">
+            
+            <div class="panel">
+                <div class="panel-name">
+                    <div class="panel-icon"><i class="fas fa-seedling"></i></div>
+                    <div class="panel-title">Statystyki</div>
+                </div>
+                <div class="panel-content">
+                    <div class="panel-element">Ranga: <b class="stats">Początkujący</b></div>
+                    <div class="panel-element">Napisanych tekstów: <b class="stats">4</b></div>
+                    <div class="panel-element">Liczba edycji tekstów: <b class="stats">189</b></div>
+                    <div class="panel-element">Jesteś z nami od: <b class="stats">25/08/2019</b></div>
+                    
+                </div>
+            </div>
+            
+            <div class="panel">
+                <div class="panel-name">
+                    <div class="panel-icon"><i class="fas fa-pencil-alt"></i></div>
+                    <div class="panel-title">Ostatnio edytowane</div>
+                </div>
+                <div class="panel-content">
+                    <div class="panel-element">Title 1 </div>
+                    <div class="panel-element">Title 2 </div>
+                    <div class="panel-element">Title 3 </div>
+                    <div class="panel-element">Title 4 </div>
+                    <div class="panel-element">Title 5 </div>
+                </div>
+            </div>
+        </div>
+
+    </body>
+</html>
